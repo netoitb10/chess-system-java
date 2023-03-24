@@ -1,12 +1,13 @@
 package aplicacao;
 
-import tabuleiro.Borda;
+import xadrez.XadrezPartida;
 
 public class Programa {
 
 	public static void main(String[] args) {
 		
-		Borda borda = new Borda(8,8);
+		XadrezPartida xadrezPartida = new XadrezPartida();
+		UI.printBorda(xadrezPartida.getPecas());
 	}
 
 }
